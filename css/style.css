@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* common start*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: black;
+}
+/* common end*/
+/* header start */
+header{
+
+}
+.container-1{
+    background-color:white;
+    padding: 20px 20px;
+    text-align: center;
+    
+}
+.container-2{
+    background-color: black;
+    padding: 30px 30px;
+    text-align: center;
+    
+}
+nav{
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li{
+    padding: 0 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    font-size: 20px;
+}
+/* header end */
+/* banner start */
+.banner{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+      background-image: url(/images/b2.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+
+}
+.banner h2{
+    color: white;
+    font-size: 30px;
+}
+/* bannerr end */
+/* heading start */
+   .heading{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0;
+   }
+   .heading h3{
+    font-size: 20px;
+    font-weight: 900;
+   }
+/* heading end */
+
+/* flexfit start */
+
+    .container-3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col1{
+        flex-basis: 50%;
+        padding: 20px 30px;
+        margin-top: 20px;
+    }
+    .col2{
+        flex-basis: 50%;
+        background-image: url(/images/s1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 40vh;
+    }
+/* flexfit end */
+/* domestic start */
+.domestic{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+ }
+.heading h4{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/* domestic end */
+/* blank start */
+.blanks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0 0;
+ }
+ .heading h5{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/* blanks end */
+/* footer start */
+.fp{
+    padding: 20px;
+}
+ 
+
+/* footer end */
+
+
